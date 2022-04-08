@@ -35,22 +35,22 @@ body {
   background-color: #dc3545 !important;
 }
 
-.card.rounded.border-0 {
+.card.rounded.border-0.first-section {
   background: -webkit-gradient(linear, left bottom, right top, from(#1c2b41), to(#3f4f63));
   background: linear-gradient(to top right, #1c2b41, #3f4f63);
   color: #fefefe;
   border-radius: 15px !important;
 }
 
-.card.rounded.border-0 .card-body h2 {
+.card.rounded.border-0.first-section .card-body h2 {
   font-size: 45px;
 }
 
-.card.rounded.border-0 .card-body h2 span {
+.card.rounded.border-0.first-section .card-body h2 span {
   color: #f02d52;
 }
 
-.card.rounded.border-0 .card-body p span {
+.card.rounded.border-0.first-section .card-body p span {
   color: #e9e9e9 !important;
 }
 
@@ -58,5 +58,32 @@ body {
   padding-left: 20px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.book-title {
+  font-size: 18px !important;
+}
+
+.book-container {
+  border-radius: 10px !important;
+}
+
+small {
+  color: #999999;
+  font-weight: 500;
+  font-size: 13px !important;
+}
+
+small strong {
+  color: #f02d52;
+}
+
+@media only screen and (max-width: 599px) {
+  small {
+    font-size: 12px !important;
+  }
+  .book-title {
+    font-size: 17px !important;
+  }
 }
 /*# sourceMappingURL=app.css.map */
