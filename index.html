@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Library</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">ELB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kategori Buku</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Daftar Buku</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control form-control-sm me-2" type="search" placeholder="Cari Judul Buku..."
+                        aria-label="Search">
+                    <button class="btn btn-sm btn-danger fw-bold" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-3">
+        <div class="card border-0 shadow-sm rounded mb-4">
+            <div class="card-body py-5 px-5">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="fw-bolder">Selamat <span>Datang</span></h2>
+                        <p class="text-muted fw-bold mb-5">
+                            <span>Perpustakaan Daerah Tangerang Selatan</span> adalah sebuah portal informasi
+                            yang
+                            meyediakan
+                            berbagai buku elektronik yang dapat anda unduh secara gratis.
+                        </p>
+                        <div class="col-md-10 row">
+                            <div class="col-md-9">
+                                <div class="mb-3 mb-md-0">
+                                    <input type="text" class="form-control" placeholder="Ketik Judul Buku...">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-danger w-100">Cari Buku</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-1 d-md-block d-none">
+                        <img src="./img/read.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="section-title">Buku Terbaru</h4>
+    </div>
+</body>
+
+</html>
