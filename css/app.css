@@ -53,4 +53,10 @@ body {
 .card.rounded.border-0 .card-body p span {
   color: #e9e9e9 !important;
 }
+
+.section-title {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=app.css.map */
